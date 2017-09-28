@@ -4,8 +4,6 @@ PROCEDURE example1;
 
 PROCEDURE example2;
 
-PROCEDURE deleteme;
-
 END;
 /
 
@@ -17,11 +15,6 @@ END;
 
 PROCEDURE example2 IS
   dbms_output.put_line('Still useless...');
-END;
-
-PROCEDURE deleteme IS
-  --IT667788 AL, I rolled this out without testing...
-  dbms_output.put_line('BROKEN CODE');
 END;
 
 END;
